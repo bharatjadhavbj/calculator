@@ -1,0 +1,87 @@
+.container{
+    background: #ffffff; /* White background */
+    max-width: 100%; 
+    border: 1px solid #d4d4d4; /* Light gray border */
+    padding: 20px;
+    margin: 10vh auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  #heading h2{
+    margin: 0;
+    font-size: 1.5em;   /* Use relative units for font size */
+    }      
+  
+  .display{
+    overflow: hidden;
+    width: 100%;                    
+    font-size: 1.2em;               
+    color: #333333;             
+    height: 2.5em;                  
+    background-color: #f9f9f9; /* Lighter gray for display */
+    padding: 3px;                 
+    text-align: right         
+    border 1px solid #d4d4d4;
+    border-radius: 5px;
+  }
+  button{
+    border: none;
+    border-radius: 20px;  
+    margin: 0.5px;
+    padding: 1.5em; /* Use relative units for padding */
+    font-size: 1em; /* Use relative units for font size */  /* margin-bottom: 3px; width: 60px; */
+    cursor: pointer;
+    width: 100%;  /* padding: 15px; */
+  }
+  button:hover{
+    background: #d4d4d4/* Darker background on hover */
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+  
+    .btn {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* changes */
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+  }
+  
+  #heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333; /* Dark gray text color */
+  }
+  .btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .number {
+    background-color: #e6e6e6; /* Light gray for numbers */
+    color: #333333;
+  }
+  
+  .optr {
+    background-color: #FF9500; /* Green color for operators */
+    color: #ffffff;
+  }
+  
+  #madeSub{
+    font-size: small;
+  }
+  
+  
